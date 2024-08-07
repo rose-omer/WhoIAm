@@ -2,7 +2,7 @@
 
 ## Genel Bilgiler
 
-Bu repoda, omerkose.dev web sitesinde yer alan projelerin tanıtımları bulunmaktadır. Her bir proje farklı teknolojiler kullanılarak geliştirilmiştir ve çeşitli özelliklere sahiptir.
+Bu repoda, omerkose.dev web sitesinde yer alan projelerin tanıtımları bulunmaktadır. Her bir proje farklı teknolojiler kullanılarak geliştirilmiştir ve çeşitli özelliklere sahiptir ve Ömer kimdir hedefleri nedir Ömeri tanımanıza yarayacak bir blog web sitesidir
 
 ## İçindekiler
 
