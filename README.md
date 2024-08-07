@@ -28,43 +28,6 @@ Bu repoda, omerkose.dev web sitesinde yer alan projelerin tanıtımları bulunma
 - Java (Snake Game için)
 - Python (Building Segmentation için)
 
-## Projeler
-
-### Motor Kiralama Web Sitesi
-
-Bu proje, kullanıcıların çeşitli motosikletleri görüntüleyip rezervasyon yapmalarını sağlayan şık ve işlevsel bir web sitesidir. Proje HTML, CSS, JavaScript ve Bootstrap kullanılarak oluşturulmuştur.
-
-**Özellikler:**
-
-- **Duyarlı Tasarım:** Farklı cihazlarda sorunsuz bir gezinme deneyimi sunar.
-- **Motosiklet Kataloğu:** Her motosikletin görseli, ismi, detayları ve günlük kiralama ücretini içeren estetik bir katalog.
-- **Rezervasyon Formu:** Kullanıcıların kolayca rezervasyon yapabilmesini sağlayan, kiralama tarihleri, ek bilgiler ve toplam ücreti içeren form.
-- **Navigasyon:** Ana sekmelere hızlı erişim sağlayan gezinme çubuğu.
-
-**Sonuç:** Modern tasarımı ve kullanıcı dostu arayüzüyle motosiklet kiralamak isteyenlere mükemmel bir çözüm sunar.
-
-### Bike Store Sales
-
-Bu proje, Python kullanarak binaların segmentasyonunu yapmayı amaçlayan bir çalışmadır. Projede veri analizi ve makine öğrenimi yöntemleri kullanılmıştır.
-
-**Özellikler:**
-
-- **Veri Analizi:** Girdi verilerinin detaylı analizi ve ön işleme.
-- **Segmentasyon Modeli:** Binaların segmentasyonunu gerçekleştiren makine öğrenimi modeli.
-- **Sonuçların Görselleştirilmesi:** Segmentasyon sonuçlarının grafiksel olarak gösterimi.
-
-**Sonuç:** Bina segmentasyonu konusunda etkili ve doğru sonuçlar sağlayan bir model geliştirilmiştir.
-
-### Snake Game
-
-Bu Java projesi, klasik bir yılan oyununu temsil eder. Oyuncunun kontrol ettiği yılanın amacı, ekrandaki yiyecekleri yiyerek büyümek ve mümkün olduğunca uzun bir yılan oluşturmaktır.
-
-**Oyun Kuralları:**
-
-- Yılan, kendisine çarpmadan ve oyun alanının sınırlarına temas etmeden mümkün olduğunca uzun olmaya çalışır.
-- Yılan, yiyecekleri yedikçe büyür.
-- Oyun, yılanın kendisine veya oyun alanının sınırlarına çarpması durumunda sona erer.
-
 **Kullanılan Kütüphaneler:**
 
 - `java.awt.*`: Temel grafik ve olay işleme işlemleri için kullanılır.
@@ -91,3 +54,12 @@ Projenin çalışabilmesi için aşağıdaki adımları takip edebilirsiniz:
 1. Bu repoyu bilgisayarınıza klonlayın:
    ```sh
    git clone https://github.com/rose-omer/ckyagmur.dev-projects.git
+   İletişim
+Bu proje hakkında daha fazla bilgi almak için aşağıdaki bağlantılardan iletişime geçebilirsiniz:
+
+E-posta: 2212101025@ogr.mehmetakif.edu.tr
+GitHub: rose-omer
+LinkedIn: Ömer Köse
+Twitter: @mer88309154
+Spotify: bennomerrr
+Instagram: bennomerrr
