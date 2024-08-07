@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv-basics — ckyagmur.dev</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class ="logo">
+            <button class="btn2" onclick="history.back()">Previous Page</button>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#my-work" class="nav__link">My work</a></li>
+                <!-- <li class="nav__item"><a href="#" class="nav__link">Home</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- intro section -->
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            <strong>BikeStoreSales Dataset Analysis</strong>
+            
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> </p>
+        <img src="./assets/bike.png" alt=" " class="intro__img">
+
+    </section>
+    <section class="content">
+        <div class="portfolio-item-individual">
+            <p><strong>BikeStoreSales Dataset Analysis</strong></p>
+            <p>
+                Bu proje, BikeStoreSales veri setini kullanarak veri analizi ve görselleştirme çalışmalarını içermektedir.
+            </p>
+
+            <p><strong>Veri Seti</strong></p>
+            <p>
+                Bu proje için kullanılan veri seti, sales_data veri setidir. Veri seti, bisiklet satışları ile ilgili çeşitli bilgileri içermektedir.
+            </p>
+
+            <p><strong>Analiz</strong></p>
+            <p>
+                Veri seti üzerinde yapılan analizler şunları içermektedir:
+                <br>
+                - Veri setinin genel özet istatistikleri
+                <br>
+                - Bisiklet satışlarının zaman içindeki dağılımı
+                <br>
+                - Müşteri segmentasyonu analizi
+                <br>
+                - Gelir ve karlılık analizleri
+            </p>
+        </div>
+    </section>
+
+
+    <!-- footer section -->
+    <footer class="footer">
+        <a href="mailto:2212101025@ogr.mehmetakif.edu.tr" class="footer__link">2212101025@ogr.mehmetakif.edu.tr</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://github.com/rose-omer">
+                    <i class="fa-brands fa-github"></i> </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://www.linkedin.com/in/%C3%B6mer-k%C3%B6se-aa22422a4/">
+                    <i class="fa-brands fa-linkedin"></i> </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://x.com/mer88309154">
+                    <i class="fa-brands fa-twitter"></i> </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://open.spotify.com/user/21ouzhe4t5g7y4dcwz5zql3ry?si=ae7b27be4f934384">
+                    <i class="fa-brands fa-spotify"></i> </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link"
+                   href="https://instagram.com/bennomerrr">
+                    <i class="fa-brands fa-instagram"></i> </a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelectorAll('.nav__link');
+
+        navToggle.addEventListener('click', () => {
+            document.body.classList.toggle('nav-open');
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                document.body.classList.remove('nav-open');
+            }) 
+        })
+    </script>
+</body>
+</html>

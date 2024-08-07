@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website-template — ckyagmur.dev</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <button class="btn2" onclick="history.back()">Previous Page</button>
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="index.html#my-work" class="nav__link">My work</a></li>
+            <!-- <li class="nav__item"><a href="#" class="nav__link">Home</a></li> -->
+        </ul>
+    </nav>
+</header>
+
+<!-- intro section -->
+
+<section class="intro">
+    <h1 class="section__title section__title--intro">
+        <strong>Görev Yönetim Sistemi</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro"></p>
+    <img src="./assets/göevler.png" alt=" " class="intro__img">
+
+</section>
+
+<section class="content">
+    <div class="portfolio-item-individual">
+
+
+        <p><strong>Görev Yönetim Sistemi</strong></p>
+        <p>
+            Bu proje, Java kullanılarak geliştirilmiş bir görev yönetim sistemini temsil eder. Kullanıcıların görevleri
+            ekleyebilmesi, silebilmesi ve listeleyebilmesi için bir web uygulaması sağlar.
+        </p>
+
+        <p><strong>Proje Bileşenleri</strong></p>
+        <p>
+            <strong>Veritabanı Bağlantısı (VeritabaniBaglanti):</strong> MySQL veritabanına bağlanmak için kullanılan
+            sınıftır. Veritabanı bağlantısı, DriverManager ve Connection sınıfları kullanılarak yapılır.
+        </p>
+        <p>
+            <strong>Görev Veri Yönetimi (Gorevlerveri):</strong> Görevlerin veritabanından çekilmesini, eklenmesini ve
+            silinmesini sağlayan sınıftır. Gorevler nesneleri üzerinde CRUD işlemlerini gerçekleştirir.
+        </p>
+        <p>
+            <strong>Model (Gorevler):</strong> Görevlerin özelliklerini temsil eden bir model sınıfıdır. Görevlerin ID,
+            adı, sorumlusunun adı, yetkilisi ve tarihi gibi bilgilerini içerir.
+        </p>
+        <p>
+            <strong>Servletler:</strong>
+            <br>
+            <strong>HelloServlet:</strong> Basit bir "Hello World" mesajı gösterir.
+            <br>
+            <strong>GorevEkleServlet:</strong> HTTP POST istekleri ile yeni görevler ekler. Form verilerini alır, bir
+            Gorevler nesnesi oluşturur ve bu nesneyi veritabanına ekler.
+            <br>
+            <strong>GorevSilServlet:</strong> Görev silme işlemlerini yönetir. Görev ID'sine göre görevleri siler ve
+            ardından kullanıcıyı görevler listesine yönlendirir.
+            <br>
+            <strong>GorevlerServlet:</strong> Görevlerin durumlarını sınıflandırır ve tarih bilgisi ile birlikte
+            görevleri çeşitli kategorilere ayırarak dashboard.jsp sayfasına yönlendirir. Görevler acil, stabil,
+            gereksiz, geçmiş ve gelecekteki görevler olarak kategorilere ayrılır.
+        </p>
+
+        <p><strong>Kullanılan Teknolojiler</strong></p>
+        <p>
+            <strong>Java Servlets:</strong> Dinamik web içeriği oluşturmak için kullanılır. HttpServlet sınıfını
+            genişleterek HTTP isteklerini işler.
+            <br>
+            <strong>MySQL:</strong> Veritabanı yönetim sistemi olarak kullanılır. Veritabanı bağlantısı için JDBC API'si
+            kullanılmıştır.
+            <br>
+            <strong>JDBC:</strong> Java Database Connectivity (JDBC), Java uygulamalarının veritabanlarıyla etkileşim
+            kurmasını sağlar.
+            <br>
+            <strong>JSP (JavaServer Pages):</strong> Web sayfalarındaki dinamik içeriği işlemek için kullanılır.
+            GorevlerServlet tarafından yönlendirilen görevler, dashboard.jsp sayfasında kullanıcıya sunulur.
+        </p>
+
+        <p><strong>Özellikler</strong></p>
+        <p>
+            <strong>Görev Listesi:</strong> Veritabanındaki görevleri listeleyebilir.
+            <br>
+            <strong>Görev Ekleme:</strong> Kullanıcılar yeni görevler ekleyebilir.
+            <br>
+            <strong>Görev Silme:</strong> Mevcut görevler silinebilir.
+            <br>
+            <strong>Görev Kategorileri:</strong> Görevler acil, stabil, gereksiz, geçmiş ve gelecekteki görevler olarak
+            sınıflandırılır.
+            <br>
+            <strong>Tarih Yönetimi:</strong> Görevlerin tarihleri kullanılarak sınıflandırma ve listeleme yapılır.
+        </p>
+
+        <p>
+            Bu proje, web tabanlı görev yönetim sistemleri için temel bir örnek teşkil eder ve Java web uygulama
+            geliştirme konusundaki temel bilgileri pekiştirmek için iyi bir kaynak sağlar.
+        </p>
+    </div>
+</section>
+
+<!-- footer section -->
+<footer class="footer">
+    <a href="mailto:2212101025@ogr.mehmetakif.edu.tr" class="footer__link">2212101025@ogr.mehmetakif.edu.tr</a>
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link"
+               href="https://github.com/rose-omer">
+                <i class="fa-brands fa-github"></i> </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               href="https://www.linkedin.com/in/%C3%B6mer-k%C3%B6se-aa22422a4/">
+                <i class="fa-brands fa-linkedin"></i> </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               href="https://x.com/mer88309154">
+                <i class="fa-brands fa-twitter"></i> </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               href="https://open.spotify.com/user/21ouzhe4t5g7y4dcwz5zql3ry?si=ae7b27be4f934384">
+                <i class="fa-brands fa-spotify"></i> </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               href="https://instagram.com/bennomerrr">
+                <i class="fa-brands fa-instagram"></i> </a>
+        </li>
+    </ul>
+</footer>
+<script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelectorAll('.nav__link');
+
+    navToggle.addEventListener('click', () => {
+        document.body.classList.toggle('nav-open');
+    });
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            document.body.classList.remove('nav-open');
+        })
+    })
+</script>
+</body>
+</html>

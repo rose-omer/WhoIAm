@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>omerkose.dev</title>
+    <link rel="icon" type="image/x-icon" href="/assets/ömeryazı.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#my-work" class="nav__link">My work</a></li>
+                <!-- <li class="nav__item"><a href="#" class="nav__link">Home</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- intro section -->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi <strong> Ömer Faruk Köse</strong> here.
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> Data Scientist </p>
+        <img src="./assets/Ömer2.png"
+            alt="intro photo" class="intro__img">
+
+    </section>
+
+    <!-- my services section -->
+    <section class="my-services" id="services" >
+        <h2 class="section__title section__title--services">what i do</h2>
+        <div class="services">
+            <div class="service">
+                <h3><center>Data Scientist</center></h3>
+                <p>
+                    3. sınıf Yazılım Mühendisliği öğrencisiyim ve veri alanında
+                    büyük bir ilgiye sahibim. Veri analizi, makine öğrenimi ve büyük
+                    veri konularında hevesliyim. Çalışkan, problem çözme yetenekleri
+                    gelişmiş ve takım çalışmasına yatkın biriyim. Veriye dayalı kararlar
+                    alma ve projelerde aktif rol üstlenme konusunda istekliyim.
+                </p>
+            </div> <!-- /service -->
+
+            <div class="service">
+                <h3><center>Skills </center></h3>
+                <p>
+                    Data Scientist olma yolunda ilerliyorum. Python, SQL, NOSQL, Java, HTML,
+                    CSS ve JavaScript dillerinde yetkinim. Spring, Maven, Selenium ve TensorFlow
+                    gibi frameworklerle çalışıyorum. OpenCV, Pandas, NumPy, Matplotlib, java.util
+                    ve javax.swing gibi kütüphaneleri de kullanarak projeler geliştiriyorum. Sürekli
+                    öğrenerek ve projeler üzerinde çalışarak kendimi geliştiriyor, büyük veri projelerinde
+                    değerli içgörüler elde etmeyi hedefliyorum.
+                </p>
+            </div> <!-- /service -->
+
+            <!-- <div class="service">
+                <h3>Formula 1 Analyst</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat.</p>
+            </div> /service -->
+        </div> <!-- /services -->
+
+        <a href="#work" class="btn">resume</a>
+    </section>
+
+    <!-- about me section -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about"> who i am</h2>
+        <p class="section__subtitle section__subtitle--about"> the little boy of the sector</p>
+
+        <div class="about-me__body">
+            <p>Merhaba, ben Ömer. Burdur Mehmet Akif Ersoy Üniversitesi'nde Yazılım Mühendisliği okuyorum ve
+                Data Scientist alanında yoluma devam etmek istiyorum. Bu süreçte algoritma mantığını kavramaya,
+                temiz kod yazmaya ve bol bol projeler yapmaya özen gösterdim. Orta üst seviyede Java ve Python kullanabiliyorum.
+                Boş zamanlarımda web teknolojileri konusunda kendimi geliştirmeye özen gösterdim. Şu anda Data Scientist üzerine yoğunlaşmış durumdayım.
+            </p>
+            <p>
+                Özel hayatımda spor yapmak, müzik dinlemek ve yemek yapmaktan çok zevk alırım. Gezmek ve yeni yerler görmenin vizyonumu geliştirdiğini düşünürüm.
+            </p>
+            <p>
+                Son olarak, her gün yazılım geliştirme üzerine makaleler okumaya hevesliyim. Gelişen yazılım sektöründe çağa ayak uydurmak
+                adına genellikle kendi alanımdaki makaleleri okumayı tercih ederim.
+            </p>
+        </div>
+
+        <img src="./assets/ömer.png"
+            alt="whoiam photo" class="about-me__img">
+    </section>
+
+    <!-- my work section -->
+
+    <section class="my-work" id="my-work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Examples of my work so far</p>
+
+        <div class="portfolio">
+            <!-- portfolio #1 -->
+            <a href="portfolio-item-motor.html" class="portfolio__item">
+                <img
+                        src="./assets/motor.png"
+                        alt="Motor Project Thumbnail" class="portfolio__img">
+            </a>
+
+            <!-- portfolio #2 -->
+            <a href="portfolio-item-görevler.html" class="portfolio__item">
+                <img
+                        src="./assets/göevler.png"
+                        alt="Gorevler Project Thumbnail" class="portfolio__img">
+            </a>
+
+            <a href="portfolio-item-bikesal.html" class="portfolio__item">
+                <img
+                        src="./assets/bike.png"
+                        alt="Bike Sales Project Thumbnail" class="portfolio__img">
+            </a>
+
+            <a href="portfolio-item-snake.html" class="portfolio__item">
+                <img
+                        src="./assets/snake.png"
+                        alt="Snake Game Project Thumbnail" class="portfolio__img">
+            </a>
+
+            <!-- portfolio #3 -->
+            <!-- <a href="portfolio-item.html" class="portfolio__item">
+                <img
+                src="https://drive.google.com/thumbnail?id=1gkCoXBfeZcBajLbnb933GJME9AF6pRMy"
+                alt="Additional Project Thumbnail" class="portfolio__img">
+            </a> -->
+
+            <!-- portfolio #4 -->
+            <!-- <a href="portfolio-item.html" class="portfolio__item">
+                <img
+                src="https://drive.google.com/thumbnail?id=1gkCoXBfeZcBajLbnb933GJME9AF6pRMy"
+                alt="Additional Project Thumbnail" class="portfolio__img">
+            </a> -->
+        </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+        <a href="mailto:2212101025@ogr.mehmetakif.edu.tr" class="footer__link">2212101025@ogr.mehmetakif.edu.tr</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" 
+                href="https://github.com/rose-omer">
+                <i class="fa-brands fa-github"></i> </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" 
+                href="https://www.linkedin.com/in/%C3%B6mer-k%C3%B6se-aa22422a4/">
+                <i class="fa-brands fa-linkedin"></i> </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" 
+                href="https://x.com/mer88309154">
+                <i class="fa-brands fa-twitter"></i> </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" 
+                href="https://open.spotify.com/user/21ouzhe4t5g7y4dcwz5zql3ry?si=ae7b27be4f934384">
+                <i class="fa-brands fa-spotify"></i> </a>
+            </li>   
+            
+            <li class="social-list__item">
+                <a class="social-list__link" 
+                href="https://instagram.com/bennomerrr">
+                <i class="fa-brands fa-instagram"></i> </a>
+            </li>   
+        </ul>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelectorAll('.nav__link');
+
+        navToggle.addEventListener('click', () => {
+            document.body.classList.toggle('nav-open');
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                document.body.classList.remove('nav-open');
+            }) 
+        })
+    </script>
+    
+</body>
+</html>
