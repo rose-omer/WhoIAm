@@ -37,15 +37,10 @@ Bu repoda, omerkose.dev web sitesinde yer alan projelerin tanıtımları bulunma
 - `java.util.Random`: Rastgele yiyecek konumları oluşturmak için kullanılır.
 
 ## Ekran Görüntüleri
-
-### Motor Kiralama Web Sitesi
-![Motor Kiralama](./assets/motor.png)
-
-### Building Segmentation
-Ekran görüntüleri proje klasöründe yer almaktadır.
-
-### Snake Game
-![Snake Game](./assets/snake.png)
+![image](https://github.com/user-attachments/assets/ec48842f-7b28-45c7-abd2-cf1487ce055e)
+![image](https://github.com/user-attachments/assets/e0220abf-2d1b-4016-bebf-1b7435b760ee)
+![image](https://github.com/user-attachments/assets/18277b10-7028-49bc-82d3-68902760e94a)
+![image](https://github.com/user-attachments/assets/e9617ca4-2157-4d81-ad54-b02b723ad5c9)
 
 ## Kurulum
 
@@ -57,9 +52,13 @@ Projenin çalışabilmesi için aşağıdaki adımları takip edebilirsiniz:
    İletişim
 Bu proje hakkında daha fazla bilgi almak için aşağıdaki bağlantılardan iletişime geçebilirsiniz:
 
-E-posta: 2212101025@ogr.mehmetakif.edu.tr
-GitHub: rose-omer
-LinkedIn: Ömer Köse
-Twitter: @mer88309154
-Spotify: bennomerrr
-Instagram: bennomerrr
+## İletişim
+
+Bu proje hakkında daha fazla bilgi almak için aşağıdaki bağlantılardan iletişime geçebilirsiniz:
+
+- E-posta: [2212101025@ogr.mehmetakif.edu.tr](mailto:2212101025@ogr.mehmetakif.edu.tr)
+- GitHub: [rose-omer](https://github.com/rose-omer)
+- LinkedIn: [Ömer Köse](https://www.linkedin.com/in/%C3%B6mer-k%C3%B6se-aa22422a4/)
+- Twitter: [@mer88309154](https://x.com/mer88309154)
+- Spotify: [bennomerrr](https://open.spotify.com/user/21ouzhe4t5g7y4dcwz5zql3ry?si=ae7b27be4f934384)
+- Instagram: [bennomerrr](https://instagram.com/bennomerrr)
