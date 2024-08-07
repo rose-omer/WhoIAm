@@ -10,7 +10,7 @@ Bu repoda, omerkose.dev web sitesinde yer alan projelerin tanıtımları bulunma
 2. [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
 3. [Projeler](#projeler)
    - [Motor Kiralama Web Sitesi](#motor-kiralama-web-sitesi)
-   - [Bike Store Sales](#Bike Store Sales)
+   - [Bike Store Sales](#Bike-Store-Sales)
    - [Snake Game](#snake-game)
 4. [Ekran Görüntüleri](#ekran-görüntüleri)
 5. [Kurulum](#kurulum)
